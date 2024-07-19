@@ -11,7 +11,7 @@ import org.springframework.data.relational.core.mapping.Table;
  * @Contact: itsdevelopernic22@gmail.com
  */
 
-@Table(name = "tutorials")
+@Table(name = "tb_tutorials")
 @Getter
 @Setter
 @AllArgsConstructor
