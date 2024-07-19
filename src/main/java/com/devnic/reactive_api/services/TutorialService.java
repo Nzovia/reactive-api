@@ -18,7 +18,7 @@ public interface TutorialService {
 
     Mono<Tutorial> updateTutorial(Long id, Tutorial tutorial);
 
-    Mono<Tutorial> deleteTutorial(Long id);
+    Mono<Void> deleteTutorial(Long id);
 
     Mono<Tutorial> getTutorialById(Long id);
 }
