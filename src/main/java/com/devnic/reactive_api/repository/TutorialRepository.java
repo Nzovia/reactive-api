@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
  * @On 17/07/2024
  * @Contact: itsdevelopernic22@gmail.com
  */
+
 @Repository
 public interface TutorialRepository extends R2dbcRepository<Tutorial,Long> {
 }

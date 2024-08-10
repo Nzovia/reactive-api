@@ -2,7 +2,7 @@ package com.devnic.reactive_api.controllers;
 
 import com.devnic.reactive_api.models.Tutorial;
 import com.devnic.reactive_api.services.TutorialService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.devnic.reactive_api.services.TutorialServiceImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
@@ -17,8 +17,11 @@ import reactor.core.publisher.Mono;
 @RestController
 @RequestMapping("/api/v1/tutorial")
 public class TutorialController {
-    @Autowired
-    private TutorialService tutorialService;
+    private final TutorialService tutorialService;
+
+    public TutorialController(TutorialServiceImpl tutorialService) {
+        this.tutorialService = tutorialService;
+    }
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)

@@ -3,7 +3,6 @@ package com.devnic.reactive_api.services;
 import com.devnic.reactive_api.models.Tutorial;
 import com.devnic.reactive_api.repository.TutorialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -15,7 +14,6 @@ import java.util.Optional;
  * @On 19/07/2024
  * @Contact: itsdevelopernic22@gmail.com
  */
-
 @Service
 public class TutorialServiceImpl implements TutorialService {
     @Autowired

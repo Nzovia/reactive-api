@@ -1,7 +1,6 @@
 package com.devnic.reactive_api.models;
 
 import lombok.*;
-import org.springframework.boot.autoconfigure.web.WebProperties;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
