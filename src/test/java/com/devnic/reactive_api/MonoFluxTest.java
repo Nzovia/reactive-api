@@ -1,9 +1,8 @@
 package com.devnic.reactive_api;
 
-import org.springframework.boot.test.context.TestComponent;
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import org.junit.jupiter.api.Test;
 
 /**
  * @author Nicholas Nzovia
