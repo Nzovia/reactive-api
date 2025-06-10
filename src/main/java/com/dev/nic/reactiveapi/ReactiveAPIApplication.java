@@ -1,13 +1,13 @@
-package com.dev.nic.reactivecore;
+package com.dev.nic.reactiveapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReactiveCoreApplication {
+public class ReactiveAPIApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ReactiveCoreApplication.class, args);
+        SpringApplication.run(ReactiveAPIApplication.class, args);
     }
 
 }

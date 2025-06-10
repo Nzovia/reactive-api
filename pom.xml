@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dev.nic</groupId>
-    <artifactId>ReactiveCore</artifactId>
+    <artifactId>reactiveapi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ReactiveCore</name>
-    <description>ReactiveCore</description>
+    <name>reactiveapi</name>
+    <description>reactiveapi</description>
     <url/>
     <licenses>
         <license/>
